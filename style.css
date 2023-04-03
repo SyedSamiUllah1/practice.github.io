@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Header */
+header{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+header ul{
+    display: flex;
+    align-items: center;  
+    
+}
+header ul li{
+    padding: 15px;
+    margin: 10px 20px 1px 0px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px dotted rgb(255, 255, 255);
+
+}
+
+/* Navbar */
+.nav-bar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.nav-bar ul li{
+    padding: 15px;
+    margin: 10px 70px 10px 0px;
+    border-radius: 10px;
+    list-style: none;
+    background-color: rgb(223, 246, 239);
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-bar ul li a:hover{
+    color: red;
+}
+
+/* utility classe */
+.fa{
+    margin-right: 2px;
+}
