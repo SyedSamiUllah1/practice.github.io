@@ -8,26 +8,125 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Stationary Shop</title>
+    <script src="sliderengine/jquery.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+    <script src="sliderengine/initslider-1.js"></script>
 </head>
 
 <body>
-    <header>
+    <header id="home">
         <img src="imgs/logo.png" alt="logo">
-            <ul>
-                <li><i class="fa fa-phone" aria-hidden="true"></i>Phone: 0312-9542406</li>
-                <li><i class="fa fa-envelope" aria-hidden="true"></i>Email: SyedSamiUllah135@gmail.com</li>
-            </ul>
-        
+        <ul>
+            <li><i class="fa fa-phone" aria-hidden="true"></i>Phone: 0312-9542406</li>
+            <li><i class="fa fa-envelope" aria-hidden="true"></i>Email: SyedSamiUllah135@gmail.com</li>
+        </ul>
+
     </header>
 
     <nav class="nav-bar">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Our Services</a></li>
-            <li><a href="#">Catagories</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#cat">Catagories</a></li>
             <li><a href="#">About Us</a></li>
         </ul>
     </nav>
+    <div class="amazingslider-wrapper" id="amazingslider-wrapper-1"
+        style="display:block;position:relative;max-width:1920px;margin:0px auto 56px;">
+        <div class="amazingslider" id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><img src="images/olga-tutunaru-plbb7pkEjkQ-unsplash-1920x500.jpg"
+                        alt="olga-tutunaru-plbb7pkEjkQ-unsplash-1920x500"
+                        title="olga-tutunaru-plbb7pkEjkQ-unsplash-1920x500" />
+                </li>
+                <li><img src="images/hdr-cash-for-books-1.jpg" alt="hdr-cash-for-books-1"
+                        title="hdr-cash-for-books-1" />
+                </li>
+                <li><img src="images/download.jfif" alt="download" title="download" />
+                </li>
+            </ul>
+            <ul class="amazingslider-thumbnails" style="display:none;">
+                <li><img src="images/olga-tutunaru-plbb7pkEjkQ-unsplash-1920x500-tn.jpg"
+                        alt="olga-tutunaru-plbb7pkEjkQ-unsplash-1920x500"
+                        title="olga-tutunaru-plbb7pkEjkQ-unsplash-1920x500" /></li>
+                <li><img src="images/hdr-cash-for-books-1-tn.jpg" alt="hdr-cash-for-books-1"
+                        title="hdr-cash-for-books-1" /></li>
+                <li><img src="images/download-tn.jfif" alt="download" title="download" /></li>
+            </ul>
+        </div>
+    </div>
+    <br>
+    <div class="services" id="services">
+
+        <h1>Our Services</h1>
+        <div class="boxes">
+            <div id="box" class="box">
+                <h5>Book Delivery</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit aliquam perferendis totam soluta,
+                    accusamus perspiciatis corporis! Expedita quaerat cum eaque, saepe ullam sequi.</p>
+            </div>
+            <div id="box" class="box1">
+                <h5>Book Repair</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit aliquam perferendis totam soluta,
+                    accusamus perspiciatis corporis! Expedita quaerat cum eaque, saepe ullam sequi.</p>
+            </div>
+            <div id="box" class="box2">
+                <h5>Book Wrapping</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit aliquam perferendis totam soluta,
+                    accusamus perspiciatis corporis! Expedita quaerat cum eaque, saepe ullam sequi.</p>
+            </div>
+            <div id="box" class="box3">
+                <h5>Gift</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit aliquam perferendis totam soluta,
+                    accusamus perspiciatis corporis! Expedita quaerat cum eaque, saepe ullam sequi.</p>
+            </div>
+        </div>
+    </div>
+    <div class="categories" id="cat">
+        <h1>Categories</h1>
+        <div class="boxes">
+            <div id="box" class="box">
+                <h5>Islamic Books</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit aliquam perferendis totam soluta,
+                    accusamus perspiciatis corporis! Expedita quaerat cum eaque, saepe ullam sequi.</p>
+            </div>
+            <div id="box" class="box1">
+                <h5>Fiction Books</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit aliquam perferendis totam soluta,
+                    accusamus perspiciatis corporis! Expedita quaerat cum eaque, saepe ullam sequi.</p>
+            </div>
+            <div id="box" class="box2">
+                <h5>Study Books</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit aliquam perferendis totam soluta,
+                    accusamus perspiciatis corporis! Expedita quaerat cum eaque, saepe ullam sequi.</p>
+            </div>
+            <div id="box" class="box3">
+                <h5>History Books</h5>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit aliquam perferendis totam soluta,
+                    accusamus perspiciatis corporis! Expedita quaerat cum eaque, saepe ullam sequi.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="about-us" id="au">
+        <h1>About Us</h1>
+        <div class="content">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, quia cumque pariatur neque, dolorum
+                amet
+                blanditiis facilis fuga corrupti veritatis incidunt, sunt unde obcaecati. Quasi rerum aliquid nostrum
+                incidunt dignissimos facilis, facere laboriosam similique velit exercitationem sint nesciunt temporibus
+                nemo
+               
+            </p>
+            <ul>
+                <li><i class="fa fa-phone" aria-hidden="true"></i>Phone: 0312-9542406</li>
+                <li><i class="fa fa-envelope" aria-hidden="true"></i>Email: SyedSamiUllah135@gmail.com</li>
+            </ul>
+            
+        </div>    
+    </div>
+    <p id="f">CopyRights Reserved &copy; Since 1950</p>
 </body>
 
 </html>
